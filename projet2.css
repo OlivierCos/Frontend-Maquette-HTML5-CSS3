@@ -156,6 +156,12 @@ input[type="search"]
     margin: 1em 0em 2em 0em;
 }
 
+.search-form_button
+{
+    visibility: hidden;
+    display: none;
+}
+
 /****** Filtres ******/
 .filter
 {
@@ -221,7 +227,7 @@ input[type="search"]
 .filter_item_formulaire_economique
 {
     width: 10.5em;
-    padding-right: 0.8em;
+    padding-right: 0.7em;
     padding-left: 0.4em;
 }
 
@@ -242,7 +248,7 @@ input[type="search"]
 {
     width: 12.5em;
     padding-left: 2em;
-    padding-right: 0.5em;
+    padding-right: 0.1em;
 }
 
 .filter_input
@@ -339,7 +345,7 @@ color: var(--blue);
     background-color: var(--lightgrey);
     border-radius: 17px;
     text-align:left;
-    width: 65%;
+    width: 70%;
     padding: 0px 3vw;
 }
 
@@ -354,10 +360,10 @@ color: var(--blue);
 .hebergements_images
 {
     display: grid;
-    grid-template-columns: 32% 32% 32%;
+    grid-template-columns: 31.5% 31.5% 31.5%;
     grid-template-rows: 50% 50%;
     height: 31vw;
-    grid-gap: 1.5vw;
+    grid-gap: 2vw;
     padding-bottom: 3vw;
 }
 
@@ -377,11 +383,11 @@ color: var(--blue);
 
 .cards_hebergements 
 {
-    width: 95%;
-    height: 95%;
+    width: 100%;
+    height: 100%;
     background-color: white;
     border-radius: 17px;
-    padding-bottom: 0.5em;
+    padding-bottom: 0em;
     box-shadow: 1px 1px 20px #dddddd;
 }
    
@@ -423,8 +429,8 @@ color: var(--blue);
 
 .more_1
 {
-    padding-top: 0.5vw;
-    padding-bottom: 3vw;
+    padding-top: 1.8vw;
+    padding-bottom: 3.3vw;
 }
 
 .more
@@ -442,7 +448,7 @@ aside
     background-color: var(--lightgrey);
     border-radius: 17px;
     padding: 0vw 3vw;
-    width: 32%;
+    width: 30%;
 }
 
 .aside_title
@@ -464,9 +470,8 @@ aside
 {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 30% 30% 30%;
+    grid-template-rows: 33% 33% 33%;
     grid-gap: 2.2vw;
-    padding-bottom: 2vw;
     text-align: left;
 }
 
@@ -709,10 +714,15 @@ footer ul
     margin:0 auto;
 }
 
+.list-element
+{
+    font-weight: 500;
+}
+
 .title_list-element
 {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 800;
     padding-bottom: 0.5em;
 }
 
@@ -746,8 +756,13 @@ footer ul
     display: flex;
     flex-direction: column-reverse;
     position: relative;
-    width: 100%;
-    margin-bottom : 2vw;
+    width: 95%;
+    margin : 0vw 2vw 2vw 2vw;
+}
+
+.cards_hebergements_content
+{
+    width: 94%;
 }
 
 .hebergements_title
@@ -758,9 +773,9 @@ footer ul
 .hebergements_images
 {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 32% 32% 32%;
     grid-template-rows: 50% 50%;
-    height: 50vw;
+    height: 55vw;
     grid-gap: 1.5vw;
     padding-bottom: 3vw;
 }
@@ -788,11 +803,6 @@ footer ul
     display: flex;
     padding-left: 0;
     font-size: 1.5vw;
-}
-
-.cards_hebergements_content
-{
-    width: 94%;
 }
 
 aside
@@ -864,10 +874,17 @@ aside
 
 /***Activites***/
 
+.activity_title
+{
+    margin-left: 1em;
+}
 
 .cards_activity_content
 {
     height: 250px;
+    width: 94%;
+    margin:auto;
+    margin-bottom: 2em;
 }
 
 
@@ -933,13 +950,18 @@ aside
 @media screen and (max-width: 630px)
 {
     
+#bloc-page
+{
+    margin: 0 auto;
+}
+
     .logo
     {
         height: 2.9em;
         padding-top: 2.3em;
         padding-bottom: 1em;
         margin-left: 0.5em;
-        float: left;
+        width: 35%;
     }
 
     .suscribe-link
@@ -948,6 +970,7 @@ aside
     top: 0;
     right: 0;
     margin-right: 20px;
+    padding-top: 3.3em;
     }
 
     .menu
@@ -965,6 +988,54 @@ header a
 {
     padding: 0px 0px;
 }
+
+.titre
+{
+    margin:1.5em 1.2em;
+}
+
+.search
+{
+    margin-left: 0.8em;
+}
+
+.bouton_search_input_submit
+{
+    visibility: hidden;
+    display: none;
+}
+
+.search-form_button
+{
+    visibility: visible;
+    color: #fff;
+    background-color: var(--blue);
+    border: none;
+    border-radius: 15px;
+    height: 52px;
+    width: 52px;
+    margin-left: -15px;
+    cursor: pointer;
+    display: inline;
+}
+
+.search-form_button .fas
+{
+    font-size: 1.4em;
+}
+
+
+.filter_title
+{
+    text-align: left;
+}
+
+.filter_info
+{
+    display: flex;
+    flex-direction: column;
+}
+
 
 .hebergement_activity
 {
@@ -1033,9 +1104,208 @@ footer ul
 @media screen and (max-width: 480px)
 {
 
-    #bloc-page
-    {
-        margin:0 auto;
-    }
+#bloc-page
+{
+    margin:0;
+}
+    
+.filter_item
+{
+    margin-right: 0.3em;
+}
+
+.search
+{
+    margin-right: 0.5em;
+}
+
+.icone_info
+{
+    margin-left: 0.8em;
+}
+
+.hebergements
+{
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    width: 100%;
+    margin : 0;
+}
+
+.cards_hebergements_content
+{
+    width: 100%;
+    background-color: white;
+    border-radius: 17px;
+    text-align:left;
+    margin: 0 auto;
+}
+
+.hebergements_title
+{
+    font-size: 4.5vw;
+    font-weight: 800;
+}
+
+.hebergements_images
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3vw;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.hebergements_img
+{
+    width: 98%;
+    height: 64%;
+    padding: 0.85vw;
+}
+
+.cards_hebergements
+{
+    height:195px;
+    margin-bottom: 2vw;
+}
+
+.cards_hebergements_body
+{
+    align-items: space-between;
+    padding-top: 1vw;
+    height: 36%;
+    padding-left: 10px;
+}
+
+.title_cards_hebergements
+{
+    margin-top : 0vw;
+    font-weight: 700;
+    font-size: 4vw;
+}
+
+.price_hebergements
+{
+    font-weight: 500;
+    font-size: 3.5vw;
+    line-height: 4%;
+}
+
+.rating_hebergements 
+{
+    display: flex;
+    padding-left: 0;
+    font-size: 2.5vw;
+}
+
+aside
+{
+    background-color: var(--lightgrey);
+    border-radius: 0;
+    padding: 2vw;
+    width: 100%;
+    margin: 0;
+}
+
+.aside_title
+{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-size: 4.5vw;
+    font-weight: 800;
+}
+
+.cards_aside_content
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 7vw;
+}
+
+.cards_aside
+{
+    width: 98%;
+    height: 143px;
+    background-color: white;
+    border-radius: 17px;
+    box-shadow: 1px 1px 20px #dddddd;
+    padding: 3px 0px 4px 4px;
+    margin-bottom: 4px;
+}
+
+.aside_img
+{
+    width: 38.48%;
+    height: 99%;
+    margin-right: 4vw;
+}
+
+.cards_aside_body
+{
+    line-height: 70%;
+    padding-right: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.title_cards_aside
+{
+    font-size: 4.5vw;
+}
+
+.price_aside
+{
+    font-size: 4vw;
+}
+
+.rating_aside
+{
+    font-size: 3vw;
+    padding-bottom: 3vw;
+}
+
+.activity_title
+{
+    text-align: left;
+    font-size: 4.5vw;
+    font-weight: 800;
+    margin-top: 4vw;
+    margin-left: 0.8em;
+    margin-bottom: 6vw;
+}
+
+.cards_activity_content
+{
+    display: flex;
+    flex-direction: column;
+    height: 190px;
+    width: 96%;
+    margin:1em 1em;  
+    border-radius: 17px ;
+    box-shadow: 1px 2px 15px var(--lightgrey)
+}
+
+.activity_img_port, .activity_img_fort, .activity_img_frioul, .activity_img_calanques, .activity_img_garde, .activity_img_longchamp
+
+{
+    width: 100%;
+    height: 70.53%;
+    object-fit:cover;
+}
+
+.activity_body 
+{
+    position: absolute;
+    font-size: 4vw;
+    font-weight: 700;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
 
 }
