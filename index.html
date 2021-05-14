@@ -15,10 +15,10 @@
 <body>
      <div id="bloc-page">
         <header>
-                <img class="logo" src="Reservia/images/logo/Reservia.svg" alt="logo de Rervia">
+                <div class="logo"><img class="logo_1" src="Reservia/images/logo/Reservia.svg" alt="logo de Reservia"></div>
             <nav class="menu">
                 <div class="hebergement_activity"><a class ="hebergement-link" href="#hebergement_ancre">Hébergements</a>
-                <a class ="activity-link" href="#activity_ancre">Activités</a></div>
+                <a class ="activity-link" href="#activity_ancre">Activités</a>
                 <a class ="suscribe-link" href="#inscription">S’inscrire</a>
             </nav>
         </header>
@@ -32,7 +32,7 @@
                      <form method="POST" action="#" class="recherche">
                         <input class="bouton_search_input" type="search" name="recherche" value="Marseille, France">
                         <input type="submit" class="bouton_search_input_submit" value="Rechercher">
-                        <button class="search-form_button" type="text"><i class="fas fa-search" aria-hidden="true"></i></button>
+                        <button class="search-form_button" type="submit"><i class="fas fa-search"></i></button>
                     </form>
                 </div>
         </div>
@@ -45,7 +45,7 @@
     
                 <div class="filter_item">
                     <span class="filter_icone"><i class="fas fa-money-bill-wave"></i></span>
-                    <form class="filter_item_formulaire_economique" method="POST" action="#">
+                    <form class="filter_item_formulaire_economique" method="POST" action="#" cursor="pointer">
                         <input class="filter_input" type="text" name="économique" value="Économique" disabled>
                     </form>
                 </div>
@@ -284,7 +284,7 @@
                             </article>
 
                         <article class="cards_activity_frioul">
-                            <a href="#"><img class="activity_img_frioul"
+                           <a href="#"><img class="activity_img_frioul"
                             src="Reservia/images/activites/4_small/Îles_du_Frioul.jpg"
                                 alt="Îles du Frioul">
                                 <div class="activity_body_1"><h2 class="activity_body">Îles du Frioul</h2></div></a>

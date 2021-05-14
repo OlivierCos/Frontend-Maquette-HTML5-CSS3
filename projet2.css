@@ -10,6 +10,7 @@
 body
 {
     margin: 0 auto;
+    width:100%;
 }
 
 #bloc-page
@@ -19,7 +20,7 @@ body
     color: black;
     background-color: var(--maincolor);
     text-align: center;
-    margin: 0vw 50px;
+    margin: 0px 50px;
 }
 
 /****** Header ******/
@@ -28,14 +29,12 @@ header
 {
     display: flex;
     justify-content: space-between;
-    font-size: 16px;
-    width: 100%;
 }
 
 .menu
 {
     display: inline-flex;
-    padding-right: 1.5vw;
+    padding-right: 27px;
 }
 
 header a
@@ -44,24 +43,21 @@ header a
     text-decoration: none;
     font-weight: 500;
     color: var(--blue);
-    padding: 37.5px 1em;
-    margin: 0em 0.8em;
-    font-size: 16px;
+    padding: 50px 1.5em 0px 1.5em;
 }
 
 .logo
 {
     height: 2.9em;
-    padding-top: 2.3em;
-    padding-bottom: 1em;
-    margin-left: 0.5em;
+    padding-top: 42px;
+    padding-bottom: 38px;
 }
 
 .hebergement-link
 {
     color: var(--blue);
     border-top: 2.5px solid var(--blue) ;
-    padding-top: 35px;
+    padding-top: 47.5px;
 }
 
 
@@ -77,38 +73,29 @@ header a
 
 .titre
 {
-    text-align: left;
-    margin-left: 0.5em;
+    text-align: justify;
 }
 
 .titre_principal
 {
-    margin-bottom: -0.3em;
     font-size: 22px;
+    margin-bottom: 16px;
 }
 
 .titre_secondaire
 {
     font-weight:400;
-    margin-bottom: 0em ;
+    margin: 14px 0px 27px 0px;
     font-size: 16px;
 }
 
 .map_marker
 {
-    display : inline-flex;
-    padding: 1em 1em;
+    padding: 16px 19px;
     font-size: 18px;
     background-color: var(--lightgrey);
-    border-radius: 20% 0% 0% 20%;
+    border-radius: 17px 0% 0% 17px;
     margin-right: 0;
-    margin-left: 0.5em;
-}
-
-input[type="submit"]
-{ 
-    border: none;
-    margin: 0;
 }
 
 input[type="search"]
@@ -116,7 +103,6 @@ input[type="search"]
     border: var(--lightgrey) solid 1px;
     border-left: none;
     border-right: none;
-    margin: 0;
 }
 
 .recherche, .search
@@ -127,22 +113,21 @@ input[type="search"]
 
 .bouton_search_input
 {
-    font-size: 18px;
-    padding: 0.86em 0.4em 0.86em 0.9em;
+    padding: 16px 5px 13px 16px;
     font-weight: bold;
-    outline: none;
+    font-size: 18px;
     font-family: "Raleway","sans-serif";
 }
 
 .bouton_search_input_submit
 {
+    border: none;
     color: var(--maincolor);
     background-color: var(--blue);
-    font-weight: bold;
-    max-height: 144px; 
+    font-weight: bold; 
+    padding: 16px 22px;
     font-size: 18px;
-    padding: 0.9em 0.9em;
-    border-radius: 0px 15px 15px 0px;
+    border-radius: 0px 17px 17px 0px;
     font-family: "Raleway","sans-serif";
 }
 
@@ -151,15 +136,9 @@ input[type="search"]
     cursor: pointer;
 }
 
-.search
-{
-    margin: 1em 0em 2em 0em;
-}
-
 .search-form_button
 {
     visibility: hidden;
-    display: none;
 }
 
 /****** Filtres ******/
@@ -171,17 +150,15 @@ input[type="search"]
 .filter_info
 {
     display: flex;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 11px;
 }
 
 .filter_title
 {
     font-weight: 700;
-    font-size: 18px;
     margin-right: 1.05em;
-    margin-left: 0.8em;
+    margin-left: 8px;
 }
 
 .filter_container
@@ -189,7 +166,6 @@ input[type="search"]
     display: flex;
     flex-wrap: wrap;
     border: none;
-    padding-bottom: -0.5em;
 }
 
 .filter_icone
@@ -209,19 +185,17 @@ input[type="search"]
 .filter_icone i
 {
     color: var(--blue);
-    font-size: medium;
+    font-size: 16px;
     position: absolute;
 }
 
 .filter_item
 {
-    display: flex;
     position: relative;
     flex-wrap: wrap;
-    margin-right: 1.7em;
+    margin: 0 1.7em 13px 0;
     border: 2px solid var(--greystars);
     border-radius: 30px;
-    margin-bottom: 0.5em;
 }
 
 .filter_item_formulaire_economique
@@ -251,11 +225,10 @@ input[type="search"]
     padding-right: 0.1em;
 }
 
+
 .filter_input
 {
     align-items: center;
-    display: flex;
-    flex-wrap: wrap;
     padding: 0.69em 0em;
     font-weight: 700;
     text-align: center;
@@ -279,18 +252,17 @@ input[type="search"]
 .filter_item:hover
 {
     transform: scale(1.05) ; 
-    box-shadow: 0px 0px 10px 5px var(--blue);
+    box-shadow: 0px 0px 20px 5px var(--blue);
     color: black;
-    text-align: center;
     border-radius: 30px;
-    border:none;
-    cursor: pointer;
+    border: none;
 }
 
 .filter_item:hover .filter_icone
 {
     top:0px;
     left:0px;
+    cursor: pointer;
 }
 
 /****Info***/
@@ -299,7 +271,7 @@ input[type="search"]
 {
     display: flex;
     font-size: 16px;
-    margin-bottom: 2em;
+    margin-bottom: 38px;
     text-align: left;
     align-items: center;
 }
@@ -310,12 +282,16 @@ input[type="search"]
     margin-right: 0.7em;
     padding: 0.4em 0.8em;
     color: var(--blue);
-    border: 1px solid;
-    border-color: var(--lightgrey);
+    border: 1px solid var(--lightgrey);
     border-radius: 50%;
     font-size: 0.8em;
 }
 
+.info
+{    
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
 
 /**** STARS ****/
 
@@ -335,36 +311,42 @@ color: var(--blue);
 {
     display: flex;
     position: relative;
-    gap: 3vw;
+    gap: 41px;
     width: 100%;
     margin-bottom : 2vw;
 }
 
 .cards_hebergements_content
 {
+    position:relative;
     background-color: var(--lightgrey);
     border-radius: 17px;
     text-align:left;
     width: 70%;
-    padding: 0px 3vw;
+    padding: 0px 2.9vw;
 }
 
 .hebergements_title
 {
-    font-size: 0.97vw;
-    padding-top: 1.5vw;
-    font-weight: 500;
-    padding-bottom: 0.5em;
+    padding-top: 45px;
+    padding-bottom: 22px;
+}
+
+.hebergements_title h2, .aside_title h2
+{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-size: 23px;
+    font-weight: 700;
 }
 
 .hebergements_images
 {
     display: grid;
-    grid-template-columns: 31.5% 31.5% 31.5%;
-    grid-template-rows: 50% 50%;
-    height: 31vw;
-    grid-gap: 2vw;
-    padding-bottom: 3vw;
+    grid-template-columns: 30.65% 30.65% 30.65%;
+    grid-template-rows: 47% 47%;
+    grid-gap: 2.13vw;
+    position: relative;
 }
 
 .cards_hebergements_content a
@@ -374,7 +356,7 @@ color: var(--blue);
 
 .hebergements_img
 {
-    height: 57.29%;
+    height: 60%;
     width: 96%;
     object-fit:cover;
     padding: 0.3vw 0.3vw 0vw 0.3vw;
@@ -383,18 +365,22 @@ color: var(--blue);
 
 .cards_hebergements 
 {
-    width: 100%;
-    height: 100%;
     background-color: white;
     border-radius: 17px;
-    padding-bottom: 0em;
-    box-shadow: 1px 1px 20px #dddddd;
+    box-shadow: 0px 0px 12px 12px #e8e8e8;
+    height: 14.7vw;
 }
-   
+ 
+.cards_hebergements_body_1 h2
+{
+    margin-block-start: 0.6vw;
+    margin-block-end: 1.1vw;
+}
+
 .cards_hebergements_body 
 {    
     position: absolute;
-    line-height: 60%;
+    line-height: 40%;
     padding-left: 1vw;
     display: flex;
     flex-direction: column;
@@ -429,15 +415,15 @@ color: var(--blue);
 
 .more_1
 {
-    padding-top: 1.8vw;
-    padding-bottom: 3.3vw;
+    padding-top: 3.5vw;
+    padding-bottom: 3.5vw;
 }
 
 .more
 {
     text-decoration: none;
     font-weight: 700;
-    font-size: 1.2vw;
+    font-size: 20px;
 }
 
 
@@ -447,18 +433,16 @@ aside
 {
     background-color: var(--lightgrey);
     border-radius: 17px;
-    padding: 0vw 3vw;
+    padding: 0vw 2.8vw;
     width: 30%;
 }
 
 .aside_title
 {
-    padding: 1.5vw 0em 0.5em 0em;
+    padding: 45px 0em 22px 0em;
     display: flex;
     justify-content: space-between;
     align-items:center;
-    font-size: 0.97vw;
-    font-weight: 500;
 }
 
 .icone_info_aside
@@ -471,7 +455,7 @@ aside
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 33% 33% 33%;
-    grid-gap: 2.2vw;
+    grid-gap: 1.5vw;
     text-align: left;
 }
 
@@ -483,11 +467,10 @@ aside
 
 .cards_aside
 {
-    width: 100%;
-    height: 100%;
     background-color: white;
     border-radius: 17px;
-    box-shadow: 1px 1px 20px #dddddd;
+    box-shadow: 0px 0px 12px 12px #e8e8e8;
+    height: 11vw;
 }
 
 .aside_img
@@ -497,7 +480,7 @@ aside
     object-fit:cover;
     float: left;
     border-radius: 17px 0px 0px 17px ;
-    padding : 0.3vw ;
+    padding : 0.33vw ;
     margin-right: 0.8vw;
 }
 
@@ -508,8 +491,8 @@ aside
     padding-right: 2vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
+    justify-content: space-between; 
+    height:100%;
 }
 
 .title_cards_aside
@@ -538,7 +521,7 @@ aside
 .activity_title
 {
     text-align: left;
-    font-size: 1.8vw;
+    font-size: 23px;
     font-weight: 700;
     margin-top: 4vw;
 }
@@ -548,7 +531,7 @@ aside
     display: grid;
     grid-template-columns: 22.21% 3.72% 22.21% 3.72% 22.21% 3.72% 22.21% ;
     grid-template-rows: 44.04% 8.99% 9.89% 37.08%;
-    height: 445px;
+    height: 31vw;
     width: 100%;
 }
 
@@ -559,7 +542,7 @@ aside
     grid-row-start: 1;
     grid-row-end: 5;
     border-radius: 17px;
-    box-shadow: 12px 15px 20px var(--lightgrey) ;
+    box-shadow: 7px 7px 12px 3px var(--lightgrey) ;
 }
   
 .cards_activity_fort 
@@ -569,7 +552,7 @@ aside
     grid-row-start: 1;
     grid-row-end: 3;
     border-radius: 17px;
-    box-shadow: 12px 15px 20px var(--lightgrey) ;
+    box-shadow: 7px 7px 12px 3px var(--lightgrey) ;
 }
 
 .cards_activity_frioul 
@@ -579,7 +562,7 @@ aside
     grid-row-start: 4;
     grid-row-end: 5;
     border-radius: 17px;
-    box-shadow: 12px 15px 20px var(--lightgrey) ;
+    box-shadow: 7px 7px 12px 3px var(--lightgrey) ;
 }
 
 .cards_activity_calanques 
@@ -589,7 +572,7 @@ aside
     grid-row-start: 1;
     grid-row-end: 5;
     border-radius: 17px;
-    box-shadow: 12px 15px 20px var(--lightgrey) ;
+    box-shadow: 7px 7px 12px 3px var(--lightgrey) ;
 }
 
 .cards_activity_garde 
@@ -599,7 +582,7 @@ aside
     grid-row-start: 1;
     grid-row-end: 2;
     border-radius: 17px;
-    box-shadow: 12px 15px 20px var(--lightgrey) ;
+    box-shadow: 7px 7px 12px 3px var(--lightgrey) ;
 }
 
 .cards_activity_longchamp 
@@ -609,7 +592,7 @@ aside
     grid-row-start: 3;
     grid-row-end: 5;
     border-radius: 17px;
-    box-shadow: 12px 15px 20px var(--lightgrey) ;
+    box-shadow: 7px 7px 12px 3px var(--lightgrey) ;
 }
 
 .activity_img_port
@@ -661,19 +644,20 @@ aside
     border-radius: 17px 17px 0% 0% ;
 }
 
-.activity_body 
-{
-    position: absolute;
-    font-size: 1.1vw;
-    padding-left: 20px;
-    display: flex;
-    align-items: center;
-}
-
 .activites a
 {
     color: black;
     text-decoration: none;
+}
+
+.activity_body_1 h2
+
+{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-size: 1.1vw;
+    padding: 1vw 0vw 1vw 20px;
+    float: left;
 }
 
 /******FOOTER******/
@@ -694,24 +678,21 @@ footer ul
     position: relative;
     display: inline-block;
     background-color: var(--lightgrey);
-    outline: none;
     justify-content: space-between;
     text-align: left;
 }
 
 .footer_body
 {
-    text-align: center;
     background-color: var(--lightgrey);
-    margin: auto;
     font-family: "Raleway", "sans-serif";
-    font-size: 16px;
     margin-top: 4vw;
 }
 
-.footer_body_2
+li 
 {
-    margin:0 auto;
+    display: list-item;
+    text-align: -webkit-match-parent;
 }
 
 .list-element
@@ -732,15 +713,11 @@ footer ul
     line-height: 2em;
 }
 
-.footer_list_b
+.footer_list_b, .footer_list_c
 {
     line-height: 2em;
 }
 
-.footer_list_c
-{
-    line-height: 2em;
-}
 
 @media screen and (max-width: 800px) and (min-width: 480px)
 
@@ -756,13 +733,13 @@ footer ul
     display: flex;
     flex-direction: column-reverse;
     position: relative;
-    width: 95%;
-    margin : 0vw 2vw 2vw 2vw;
+    width: 100%;
+    margin : 0 auto;
 }
 
 .cards_hebergements_content
 {
-    width: 94%;
+    width: 100%;
 }
 
 .hebergements_title
@@ -773,17 +750,24 @@ footer ul
 .hebergements_images
 {
     display: grid;
-    grid-template-columns: 32% 32% 32%;
-    grid-template-rows: 50% 50%;
-    height: 55vw;
-    grid-gap: 1.5vw;
-    padding-bottom: 3vw;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 32% 32% 32%;
+    width:100%;
+    height: 90vw;
+    grid-gap: 3vw;
+    padding-bottom: 2vw;
 }
-
 
 .hebergements_img
 {
     padding: 0.5vw 0.5vw 0vw 0.5vw;
+    width: 98%;
+    height: 67%;
+}
+
+.cards_hebergements
+{
+    height: 29vw;
 }
 
 .title_cards_hebergements
@@ -807,15 +791,20 @@ footer ul
 
 aside
 {
-    width: 94%;
+    width: 100%;
 }
 
 .aside_title
 {
     display: flex;
     justify-content: space-between;
-    padding: 0.5em 1vw 0em 1vw;
+    padding: 2em 1vw 2em 1vw;
     font-size: 1.5vw;
+}
+
+.icone_info_aside
+{
+    font-size: 3vw;
 }
 
 
@@ -823,22 +812,24 @@ aside
 
 {
     display: grid;
-    grid-gap: 1.9vw;
-    padding: 0vw 1em 3vw 0em;
+    grid-gap: 1vw;
+    padding: 0vw 0em 3vw 0em;
     grid-template-rows: 100%;
     grid-template-columns: 32.8% 32.8% 32.8%;
-    margin: 0 1vw;
+    margin: 0vw;
+    height: 20vw;
+    width: 100%;
+}
+
+.cards_aside
+{
+    height:100%
 }
 
 .aside_img
 {
     width: 38.48%;
     height: 94%;
-    object-fit:cover;
-    float: left;
-    border-radius: 17px 0px 0px 17px ;
-    padding : 0.5vw ;
-    margin-right: 0.8vw;
 }
 
 .cards_aside_body
@@ -874,15 +865,11 @@ aside
 
 /***Activites***/
 
-.activity_title
-{
-    margin-left: 1em;
-}
 
 .cards_activity_content
 {
-    height: 250px;
-    width: 94%;
+    height: 38vw;
+    width: 100%;
     margin:auto;
     margin-bottom: 2em;
 }
@@ -909,10 +896,39 @@ aside
     margin: 0vw 25px;
 }
 
-    .cards_activity_content
-    {
-        height: 350px;
-    }
+.hebergements_title h2, .aside_title h2
+{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-size: 1.6vw;
+    font-weight: 700;
+}
+
+.aside_title, .hebergements_title
+{
+    padding: 2.5vw 0em 1.5vw 0em;
+}
+
+.activity_title
+{
+    font-size: 1.7vw;
+}
+
+.more
+{
+    font-size: 1.4vw;
+}
+
+.more_1
+{
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+.price_hebergements
+{
+    margin-block-end: 0.7vw ;
+}
 
 }
 
@@ -920,16 +936,7 @@ aside
 {
     footer ul
     {
-        margin:0;
-        padding: 3em 0em;
         width: 38%;
-        list-style-type: none;
-        position: relative;
-        display: inline-block;
-        background-color: var(--lightgrey);
-        outline: none;
-        justify-content: space-between;
-        text-align: left;
     }
 
     .footer_list_c
@@ -938,44 +945,35 @@ aside
     }
 }
 
-@media all and (max-width: 630px) and (min-width: 480px)
-{
-.cards_hebergements_body 
-{    
-    position: absolute;
-    line-height: 40%;
-}
-}
-
 @media screen and (max-width: 630px)
 {
     
-#bloc-page
+    #bloc-page
+    {
+        margin: 0 auto;
+    }
+    
+.filter
 {
-    margin: 0 auto;
+    margin: 0 20px;
 }
 
-    .logo
+.logo
     {
-        height: 2.9em;
-        padding-top: 2.3em;
-        padding-bottom: 1em;
-        margin-left: 0.5em;
-        width: 35%;
+        height: 40px;
+        padding-top: 28px;
+        padding-bottom: 7px;
+        font-size: 2.3em;
+        padding-left: 20px;
+        display: flex;
     }
 
-    .suscribe-link
+.suscribe-link
     {
     position: absolute;
     top: 0;
     right: 0;
-    margin-right: 20px;
-    padding-top: 3.3em;
-    }
-
-    .menu
-    {
-        padding-right: 0vw;
+    padding-top: 40px;
     }
 
 header
@@ -984,19 +982,25 @@ header
     flex-direction: column;
 }
 
-header a
-{
-    padding: 0px 0px;
-}
-
 .titre
 {
-    margin:1.5em 1.2em;
+    margin:1.5em 20px 1.5em 20px;
+    text-align: left;
+}
+
+.hebergement_activity
+{
+    margin: 0 auto;
+}
+
+.menu
+{
+    padding-right: 0px;
 }
 
 .search
 {
-    margin-left: 0.8em;
+    margin-left: 20px;
 }
 
 .bouton_search_input_submit
@@ -1016,7 +1020,6 @@ header a
     width: 52px;
     margin-left: -15px;
     cursor: pointer;
-    display: inline;
 }
 
 .search-form_button .fas
@@ -1024,16 +1027,37 @@ header a
     font-size: 1.4em;
 }
 
-
-.filter_title
-{
-    text-align: left;
-}
-
 .filter_info
 {
     display: flex;
     flex-direction: column;
+    padding-top: 18px;
+    text-align: left;
+}
+
+.filter_container
+{
+    padding-left: 0em;
+}
+
+.icone_info
+{
+    margin: 0 1em 0 0;
+    padding: 0.69em 0.69em 0em 0.69em;
+    font-weight: 700;
+
+}
+
+.icone_info i
+
+.fa-info
+{
+    font-weight: 500;
+}
+
+.info_hebergements
+{
+    align-items: normal;
 }
 
 
@@ -1069,17 +1093,13 @@ header a
 
 footer ul
 {
-    margin:0;
+    
     padding: 0em 0em;
-    width: 90%;
-    list-style-type: none;
-    position: relative;
+    width: 90%; 
     display: flex;
     flex-direction: column;
-    background-color: var(--lightgrey);
     outline: none;
     justify-content: none;
-    text-align: left;
 }
 
 .footer_list_a
@@ -1104,25 +1124,6 @@ footer ul
 @media screen and (max-width: 480px)
 {
 
-#bloc-page
-{
-    margin:0;
-}
-    
-.filter_item
-{
-    margin-right: 0.3em;
-}
-
-.search
-{
-    margin-right: 0.5em;
-}
-
-.icone_info
-{
-    margin-left: 0.8em;
-}
 
 .hebergements
 {
@@ -1140,6 +1141,7 @@ footer ul
     border-radius: 17px;
     text-align:left;
     margin: 0 auto;
+    height: 100%;
 }
 
 .hebergements_title
@@ -1161,13 +1163,13 @@ footer ul
 .hebergements_img
 {
     width: 98%;
-    height: 64%;
+    height: 68%;
     padding: 0.85vw;
 }
 
 .cards_hebergements
 {
-    height:195px;
+    height:250px;
     margin-bottom: 2vw;
 }
 
@@ -1175,22 +1177,23 @@ footer ul
 {
     align-items: space-between;
     padding-top: 1vw;
-    height: 36%;
+    height: 40%;
     padding-left: 10px;
 }
 
 .title_cards_hebergements
 {
-    margin-top : 0vw;
+    margin-top : -2vw;
     font-weight: 700;
-    font-size: 4vw;
+    font-size: 3.5vw;
 }
 
 .price_hebergements
 {
     font-weight: 500;
-    font-size: 3.5vw;
+    font-size: 3vw;
     line-height: 4%;
+    padding-top: 4px;
 }
 
 .rating_hebergements 
@@ -1204,7 +1207,8 @@ aside
 {
     background-color: var(--lightgrey);
     border-radius: 0;
-    padding: 2vw;
+    padding-top: 0;
+    padding-bottom: 1em;
     width: 100%;
     margin: 0;
 }
@@ -1222,7 +1226,8 @@ aside
 {
     display: flex;
     flex-direction: column;
-    padding-bottom: 7vw;
+    height: 120vw;
+    gap: 1em;
 }
 
 .cards_aside
@@ -1272,7 +1277,7 @@ aside
 .activity_title
 {
     text-align: left;
-    font-size: 4.5vw;
+    font-size: 5vw;
     font-weight: 800;
     margin-top: 4vw;
     margin-left: 0.8em;
@@ -1283,29 +1288,31 @@ aside
 {
     display: flex;
     flex-direction: column;
-    height: 190px;
+    height: 450vw;
     width: 96%;
     margin:1em 1em;  
     border-radius: 17px ;
-    box-shadow: 1px 2px 15px var(--lightgrey)
+    box-shadow: 0px 0px 15px 5px var(--lightgrey);
+    gap: 1em;
 }
 
 .activity_img_port, .activity_img_fort, .activity_img_frioul, .activity_img_calanques, .activity_img_garde, .activity_img_longchamp
 
 {
     width: 100%;
-    height: 70.53%;
+    height: 70%;
     object-fit:cover;
 }
 
-.activity_body 
+.activity_body_1 h2
 {
     position: absolute;
     font-size: 4vw;
     font-weight: 700;
     padding-left: 20px;
     display: flex;
-    align-items: center;
+    padding-top: 18px;
+
 }
 
 }
