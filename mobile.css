@@ -4,7 +4,7 @@
     width: 100%;
   }
 
-  .hebergements {
+  .accomodation {
     margin: 0 20px;
   }
   .filter {
@@ -20,7 +20,7 @@
     display: flex;
   }
 
-  .suscribe-link {
+  .suscribe_link {
     position: absolute;
     top: 0;
     right: 0;
@@ -32,7 +32,7 @@
     flex-direction: column;
   }
 
-  .titre {
+  .title {
     margin: 1.5em 20px 1.5em 20px;
     text-align: left;
   }
@@ -45,12 +45,12 @@
     margin-left: 20px;
   }
 
-  .bouton_search_input_submit {
+  .button_search_input_submit {
     visibility: hidden;
     display: none;
   }
 
-  .search-form_button {
+  .search_form_button {
     visibility: visible;
     color: #fff;
     background-color: var(--blue);
@@ -62,11 +62,11 @@
     cursor: pointer;
   }
 
-  .search-form_button .fas {
+  .search_form_button .fas {
     font-size: 1.4em;
   }
 
-  .filter_info {
+  .filter {
     display: flex;
     flex-direction: column;
     padding-top: 18px;
@@ -77,29 +77,33 @@
     padding-left: 0em;
   }
 
-  .icone_info {
+  .filter_title {
+    padding-bottom: 1em;
+  }
+
+  .icon_info {
     margin: 0 1em 0 0;
-    padding: 0.69em 0.69em 0em 0.69em;
+    padding: 0.1em 0.15em 0.1em 0.15em;
     font-weight: 700;
   }
 
-  .icone_info i .fa-info {
+  .icon_info i .fa-info {
     font-weight: 500;
   }
 
-  .info_hebergements {
+  .accomodation_info {
     align-items: normal;
   }
 
-  .hebergement_activity {
+  .accomodation_activity {
     width: 100%;
     display: flex;
     padding-top: 20px;
     padding-bottom: 0px;
   }
 
-  .hebergement-link,
-  .activity-link {
+  .accomodation_link,
+  .activity_link {
     width: 50%;
     margin: 0;
     justify-content: center;
@@ -108,8 +112,8 @@
     border-bottom: solid 0.156rem #f2f2f2;
   }
 
-  .hebergement-link:hover,
-  .activity-link:hover {
+  .accomodation_link:hover,
+  .activity_link:hover {
     color: var(--blue);
     border-top: none;
     border-bottom: 0.156rem solid var(--blue);
@@ -154,40 +158,36 @@
 }
 
 @media screen and (max-width: 480px) {
-  .hebergement_aside_bloc {
+  .accomodation_aside_bloc {
     flex-direction: column-reverse;
   }
 
-  .hebergements {
+  .accomodation {
     width: 100%;
     margin: 0;
   }
 
-  .hebergements_content {
+  .accomodation_content {
     width: auto;
     background-color: var(--white);
     padding: 0 20px;
   }
 
-  .hebergements_title h2,
+  .accomodation_title h2,
   .aside_title h2,
-  .activity_title_1 h2 {
+  .activity_title {
     font-size: 5vw;
     font-weight: 700;
   }
 
-  .hebergements_images {
+  .accomodation_images {
     flex-direction: column;
     padding-bottom: 3vw;
     margin: 0;
     height: auto;
   }
 
-  .hebergements_img_1 {
-    height: 68%;
-  }
-
-  .cards_hebergements {
+  .cards_accomodation {
     margin-bottom: 2vw;
     width: 98%;
     height: 50vw;
@@ -195,24 +195,24 @@
     box-shadow: 1px 2px 1vw 1vw #efefef;
   }
 
-  .cards_hebergements_body {
+  .cards_accomodation_body {
     padding-top: 1vw;
     padding-left: 12px;
   }
 
-  .title_cards_hebergements {
+  .title_cards_accomodation {
     font-weight: 700;
     font-size: 3.5vw;
     padding-bottom: 1vw;
   }
 
-  .price_hebergements {
+  .price_accomodation {
     font-size: 3vw;
     line-height: 4%;
     padding-top: 1.8vw;
   }
 
-  .rating_hebergements {
+  .rating_accomodation {
     padding-top: 3vw;
     font-size: 2.5vw;
     padding-left: 2.5vw;
@@ -246,7 +246,7 @@
     font-weight: 800;
   }
 
-  .icone_info_aside {
+  .icon_info_aside {
     font-size: medium;
   }
   .cards_aside_content {
@@ -265,19 +265,10 @@
     margin-bottom: 0;
   }
 
-  .cards_aside_1 {
-    height: auto;
-    box-shadow: none;
-  }
-
-  .aside_img_1 {
-    height: 40vw;
-    margin-right: 2vw;
-  }
-
   .aside_img {
     padding: 1vw;
-    height: 95%;
+    height: 40vw;
+    margin-right: 2vw;
   }
 
   .cards_aside_body {
@@ -303,14 +294,14 @@
     padding: 0 20px;
   }
 
-  .activity_title_1 {
+  .activity_title {
     text-align: left;
     font-size: 5vw;
-    font-weight: 800;
-    margin-top: 4vw;
+    font-weight: 700;
+    margin-top: 9vw;
     margin-bottom: 0vw;
   }
-  .activity_title_1 h2 {
+  .activity_title {
     padding-bottom: 8vw;
   }
 
@@ -333,7 +324,7 @@
     height: 45vw;
   }
 
-  .activity_body_1 h2 {
+  .activity_body {
     font-size: 3.5vw;
     font-weight: 700;
     padding: 3vw 20px;

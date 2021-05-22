@@ -3,13 +3,13 @@
     margin: 0 20px;
   }
 
-  .hebergement_aside_bloc {
+  .accomodation_aside_bloc {
     flex-direction: column-reverse;
     gap: 3vw;
     width: 100%;
   }
 
-  .hebergements_content {
+  .accomodation_content {
     width: auto;
   }
 
@@ -20,23 +20,20 @@
     width: auto;
   }
 
-  .hebergements_title,
+  .accomodation_title,
   .aside_title {
     padding-top: 30px;
     padding-bottom: 15px;
   }
 
-  .hebergements_title h2,
+  .accomodation_title h2,
   .aside_title h2,
-  .activity_title_1 h2 {
+  .activity_title {
     font-size: 2vw;
   }
 
   .cards_aside {
     width: 33%;
-  }
-
-  .cards_aside_1 {
     height: 20vw;
   }
 
@@ -47,6 +44,10 @@
 
   .aside_img {
     height: 19.4vw;
+  }
+
+  .cards_aside_body {
+    padding: 0;
   }
 
   .title_cards_aside {
@@ -62,7 +63,7 @@
     font-size: 1.2vw;
   }
 
-  .hebergements_images {
+  .accomodation_images {
     display: flex;
     width: 100%;
     height: 100%;
@@ -70,28 +71,28 @@
     padding-bottom: 2vw;
   }
 
-  .hebergements_img {
+  .accomodation_img {
     padding: 0.3vw 0.3vw 0vw 0.3vw;
     width: 98%;
-    height: 100%;
+    height: 60%;
   }
 
-  .cards_hebergements {
+  .cards_accomodation {
     height: 24vw;
   }
 
-  .title_cards_hebergements {
+  .title_cards_accomodation {
     font-weight: 800;
     padding-top: 1vw;
     font-size: 1.8vw;
   }
 
-  .price_hebergements {
+  .price_accomodation {
     font-weight: 500;
     font-size: 1.6vw;
   }
 
-  .rating_hebergements {
+  .rating_accomodation {
     display: flex;
     padding-left: 0.6vw;
     font-size: 1.3vw;
@@ -116,7 +117,7 @@
     margin-bottom: 2em;
   }
 
-  .activity_body_1 h2 {
+  .activity_body {
     margin-block-start: 0em;
     margin-block-end: 0em;
     font-size: 1.3vw;
