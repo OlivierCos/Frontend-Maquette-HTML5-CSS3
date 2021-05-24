@@ -61,11 +61,16 @@
   header {
     display: flex;
     flex-direction: column;
+    position: fixed;
+    width: 100%;
+    background-color: var(--white);
+    z-index: 10;
   }
 
   .title {
-    margin: 1.5em 20px 1.5em 20px;
+    margin: 0em 20px 1.5em 20px;
     text-align: left;
+    padding-top: 140px;
   }
 
   .menu {
