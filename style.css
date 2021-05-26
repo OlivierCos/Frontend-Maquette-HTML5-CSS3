@@ -108,6 +108,11 @@ input[type="search"] {
 
 .button_search_input::placeholder {
   color: var(--black);
+  opacity: 1;
+}
+
+.button_search_input::-ms-input-placeholder {
+  color: var(--black);
 }
 
 .button_search_input_submit {
