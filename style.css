@@ -223,9 +223,9 @@ input[type="search"] {
 .accomodation_info {
   font-size: 16px;
   margin-bottom: 38px;
-
   display: flex;
   margin-left: 10px;
+  align-items: center;
 }
 
 .icon_info {

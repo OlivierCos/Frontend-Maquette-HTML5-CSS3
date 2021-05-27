@@ -117,9 +117,12 @@
     padding-bottom: 1em;
   }
 
+  .accomodation_info {
+    align-items: unset;
+  }
+
   .icon_info {
     margin: 0 1em 0 0;
-    padding: 0.1em 0.15em 0.1em 0.15em;
     font-weight: 700;
   }
 
@@ -130,6 +133,10 @@
   .info {
     text-align: left;
     margin-right: 0.5em;
+  }
+
+  .fa-info {
+    margin: 0 8px;
   }
 
   /****FOOTER****/
