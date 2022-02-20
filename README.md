@@ -1,8 +1,10 @@
-# OlivierCostel_2_14042021
+# 2021
 
 Reservia
 
-Second projet du parcours Développeur Web chez Openclassrooms. L'objectif est d'intégrer la maquette d'un site web en HTML et CSS pour la planification de vacances "Reservia".
+Intégration d'une maquette d'un site web en HTML et CSS(SCSS) pour la planification de vacances "Reservia".
+
+![image info](./ressources/logo/reservia.svg)
 
 Élements à respecter 
 
