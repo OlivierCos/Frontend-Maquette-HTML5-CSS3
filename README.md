@@ -4,7 +4,7 @@ Reservia
 
 Intégration d'une maquette d'un site web en HTML et CSS(SCSS) pour la planification de vacances "Reservia".
 
-![image info](.\ressources\images\hebergements\4_small\Hôtel_du_port.jpg "maquette demandée")
+![yo info](Hôtel_du_port.jpg "maquette demandée")
 
 Élements à respecter 
 
