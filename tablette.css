@@ -34,15 +34,12 @@
   .cards_aside {
     width: 33%;
     height: 20vw;
+    padding: 0.5vw;
   }
 
   .cards_aside_content {
     height: 100%;
     flex-direction: row;
-  }
-
-  .aside_img {
-    height: 19.4vw;
   }
 
   .cards_aside_body {
@@ -72,14 +69,9 @@
     padding-bottom: 2vw;
   }
 
-  .accomodation_img {
-    padding: 0.3vw 0.3vw 0vw 0.3vw;
-    width: 98%;
-    height: 60%;
-  }
-
   .cards_accomodation {
     height: 24vw;
+    padding: 0.5vw;
   }
 
   .title_cards_accomodation {
