@@ -4,7 +4,7 @@ Reservia
 
 Intégration d'une maquette d'un site web en HTML et CSS(SCSS) pour la planification de vacances "Reservia".
 
-![image info](./ressources/logo/reservia.svg)
+![image info](reservia.svg "maquette demandée")
 
 Élements à respecter 
 
