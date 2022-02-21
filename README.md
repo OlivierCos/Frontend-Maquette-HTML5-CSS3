@@ -1,14 +1,16 @@
 # 2021
 
-Reservia
+## Reservia
 
-Intégration d'une maquette d'un site web en HTML5 et CSS3 pour la planification de vacances "Reservia".
+### Intégration d'une maquette d'un site web en HTML5 et CSS3 pour la planification de vacances "Reservia" 
+
+La maquette réalisée par mes soins est celle de gauche, celle envoyée par la société est à droite
 
 <img alt="maquette réalisée" width="400" height="600" src="maquette_done.png"> </img>
 <img alt="maquette demandée" width="400" height="600" src="reservia_maquette_asked.png"> </img>
 
 
-Élements à respecter 
+### Élements à respecter 
 
 - Une maquette desktop et une maquette mobile. 
 - Police : Raleway 
@@ -17,7 +19,7 @@ Intégration d'une maquette d'un site web en HTML5 et CSS3 pour la planification
 - Le logo ainsi que toutes les images du site en version sm, md, L et XL.
  
 
-Contraintes techniques
+### Contraintes techniques
 
 - HTML et CSS uniquement.
 - Le site doit être responsive et adaptable parfaitement sur mobile.
@@ -29,4 +31,4 @@ Contraintes techniques
 - Les images doivent bien s'adapter et ne pas impacter le temps de chargement de la page.
 - Le site devra être compatible avec les dernières versions de Chrome et Firefox.
 
-Lien vers Github Page : https://oliviercos.github.io/OlivierCostel_2_14042021/
+### Lien vers Github Page : https://oliviercos.github.io/OlivierCostel_2_14042021/
