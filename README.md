@@ -4,8 +4,9 @@ Reservia
 
 Intégration d'une maquette d'un site web en HTML5 et CSS3 pour la planification de vacances "Reservia".
 
-![yo info](reservia_maquette_asked.png/400/300 "maquette demandée")
-![yo info](maquette_done.png/400/300 "maquette demandée")
+![yo info](reservia_maquette_asked.png "maquette demandée")
+<img alt="maquette réalisée" width="600" height="1500" src="maquette_done.png"> </img>
+
 
 Élements à respecter 
 
