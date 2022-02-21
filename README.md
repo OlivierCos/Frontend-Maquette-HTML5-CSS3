@@ -1,9 +1,8 @@
-# 2021  
-## Reservia    
+# 2021  -  Reservia    
 
-### Intégration d'une maquette d'un site web en HTML5 et CSS3 pour la planification de vacances "Reservia"     
+### Intégration d'une maquette d'un site web en HTML5 et CSS3 pour la planification de vacances "Reservia"         
 
-La maquette réalisée par mes soins est celle de gauche, celle demandée par la société est à droite    
+La maquette réalisée par mes soins est celle de gauche, celle demandée par la société est à droite        
 
 <img alt="maquette réalisée" width="400" height="600" src="maquette_done.png"> </img>
 <img alt="maquette demandée" width="400" height="600" src="reservia_maquette_asked.png"> </img>
