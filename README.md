@@ -6,7 +6,7 @@
 &nbsp;
 
 
-__<p style="text-align:left;">La maquette réalisée par mes soins</p><p style="text-align:right;">Maquette demandée par la société</p>__
+__<div style="text-align:left;">La maquette réalisée par mes soins</div><div style="text-align:right;">Maquette demandée par la société</div>__
 
 <img alt="maquette réalisée" width="400" height="600" src="maquette_done.png">
 <img alt="maquette demandée" width="400" height="600" src="reservia_maquette_asked.png">
