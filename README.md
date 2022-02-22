@@ -6,10 +6,10 @@
 &nbsp;
 
 
-__<div style="text-align:left;">La maquette réalisée par mes soins</div><div style="text-align:right;">Maquette demandée par la société</div>__
+__<div style="justify-content:space-between;"><div>La maquette réalisée par mes soins</div><div>Maquette demandée par la société</div></div>__
 
-<img alt="maquette réalisée" width="400" height="600" src="maquette_done.png">
-<img alt="maquette demandée" width="400" height="600" src="reservia_maquette_asked.png">
+<img alt="maquette réalisée" width="400" height="600" src="maquette_done.png"></img>
+<img alt="maquette demandée" width="400" height="600" src="reservia_maquette_asked.png"></img>
 
 
 
