@@ -5,7 +5,7 @@
 
 &nbsp;
 
-<div style="text-align:left; font-weight:500;">La maquette réalisée par mes soins</div> <div style="text-align:right; font-weight:500;">**Maquette demandée par la société </div>
+<p style="text-align: left;">__La maquette réalisée par mes soins__</p> <p style="text-align: right;">__Maquette demandée par la société__</p>
 
 <img alt="maquette réalisée" width="400" height="600" src="maquette_done.png"> </img>
 <img alt="maquette demandée" width="400" height="600" src="reservia_maquette_asked.png"> </img>
