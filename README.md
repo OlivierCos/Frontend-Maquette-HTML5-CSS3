@@ -1,16 +1,17 @@
-# 2021  -  Reservia    
+# 2021  -  Reservia
 
-### Intégration d'une maquette d'un site web en HTML5 et CSS3 pour la planification de vacances "Reservia"         
+### Intégration d'une maquette d'un site web en HTML5 et CSS3 pour la planification de vacances "Reservia"
 
-La maquette réalisée par mes soins est celle de gauche, celle demandée par la société est à droite        
+
+&nbsp;
+
+<left> La maquette réalisée par mes soins</left> <right> Maquette demandée par la société </right>
 
 <img alt="maquette réalisée" width="400" height="600" src="maquette_done.png"> </img>
 <img alt="maquette demandée" width="400" height="600" src="reservia_maquette_asked.png"> </img>
 
 
-
-
-### Élements à respecter 
+### Élements à respecter
 
 - Une maquette desktop et une maquette mobile. 
 - Police : Raleway 
@@ -21,7 +22,7 @@ La maquette réalisée par mes soins est celle de gauche, celle demandée par la
 
 ### Contraintes techniques
 
-- HTML et CSS uniquement.
+- HTML et CSS uniquement. 
 - Le site doit être responsive et adaptable parfaitement sur mobile.
 - Adaptations au choix sur les tablettes du moment qu'aucun élément n'est coupé et que le texte a une taille suffisante. 
 - Dans le menu, les liens “Hébergements” et “Activités” sont des ancres qui doivent mener aux sections de la page.
