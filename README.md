@@ -1,7 +1,8 @@
 # 2021  -  Reservia
 
-### Intégration d'une maquette d'un site web en HTML5 et CSS3 pour la planification de vacances "Reservia"
+### 🛠️ Intégration du contenu d'un site web en HTML5 et CSS3 conformément à la maquette envoyée par l'entreprise
 
+### 🛠️ Implémenter une interface responsive
 
 &nbsp;
 
