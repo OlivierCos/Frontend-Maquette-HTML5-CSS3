@@ -34,4 +34,4 @@ __1) Maquette réalisée par mes soins &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp
 - Les images doivent bien s'adapter et ne pas impacter le temps de chargement de la page.
 - Le site devra être compatible avec les dernières versions de Chrome et Firefox.
 
-### Lien vers Github Page : https://oliviercos.github.io/OlivierCostel_2_14042021/
+### Lien vers Github Page : https://oliviercos.github.io/Frontend-Maquette-HTML5-CSS3/
