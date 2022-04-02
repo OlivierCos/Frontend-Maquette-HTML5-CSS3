@@ -9,8 +9,7 @@
 
 __1) Maquette réalisée par mes soins &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;   &nbsp;   2) Maquette demandée par la société__
 
-<img alt="maquette réalisée" width=370px src="maquette_done.png"></img>
-<img alt="maquette demandée" width=410px src="reservia_maquette_asked.png"></img>
+<img alt="maquette réalisée" width=45% src="maquette_done.png"></img> <img alt="maquette demandée" width=45% src="reservia_maquette_asked.png"></img>
 
 
 ### Élements à respecter
