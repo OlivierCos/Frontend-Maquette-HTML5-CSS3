@@ -5,10 +5,10 @@ https://oliviercos.github.io/Frontend-Maquette-HTML5-CSS3/
 
 &nbsp;
 
-### 🛠️ Intégration du contenu d'un site web en HTML5 et CSS3 conformément à la maquette envoyée par l'entreprise
+## 🛠️ Intégration du contenu d'un site web en HTML5 et CSS3 conformément à la maquette envoyée par l'entreprise
 
 
-### 🛠️ Implémenter une interface responsive
+## 🛠️ Implémenter une interface responsive
 
 &nbsp;
 
@@ -23,8 +23,8 @@ __1) Maquette réalisée par mes soins &nbsp;   &nbsp;  &nbsp; &nbsp; &nbsp; &nb
 - Une maquette desktop et une maquette mobile. 
 - Police : Raleway 
 - Icônes : Provenant de la bibliothèque de Font Awesome 
-- Couleurs : bleu #0065FC, bleu clair #DEEBFF  et gris #F2F2F2.
-- Le logo ainsi que toutes les images du site en version sm, md, L et XL.
+- Couleurs : bleu #0065FC, bleu clair #DEEBFF  et gris #F2F2F2
+- La qualité des images
  
 
 ### Contraintes techniques
