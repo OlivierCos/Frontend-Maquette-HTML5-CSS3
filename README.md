@@ -1,6 +1,11 @@
 # 2021  -  Reservia
 
+### Lien internet vers la page web réalisée : https://oliviercos.github.io/Frontend-Maquette-HTML5-CSS3/
+
+&nbsp;
+
 ### 🛠️ Intégration du contenu d'un site web en HTML5 et CSS3 conformément à la maquette envoyée par l'entreprise
+
 
 ### 🛠️ Implémenter une interface responsive
 
@@ -33,4 +38,4 @@ __1) Maquette réalisée par mes soins &nbsp;   &nbsp;  &nbsp; &nbsp; &nbsp; &nb
 - Les images doivent bien s'adapter et ne pas impacter le temps de chargement de la page.
 - Le site devra être compatible avec les dernières versions de Chrome et Firefox.
 
-### Lien vers Github Page : https://oliviercos.github.io/Frontend-Maquette-HTML5-CSS3/
+
