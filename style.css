@@ -643,9 +643,9 @@ footer ul {
   width: 20%;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1700px) {
 
 #bloc-page {
-margin: 0 5vw;
+margin: 0 7vw;
 }
 }
