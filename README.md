@@ -5,10 +5,10 @@ https://oliviercos.github.io/Frontend-Maquette-HTML5-CSS3/
 
 &nbsp;
 
-##### 🛠️ Intégration du contenu d'un site web en HTML5 et CSS3 conformément à la maquette envoyée par l'entreprise
+#### 🛠️ Intégration du contenu d'un site web en HTML5 et CSS3 conformément à la maquette envoyée par l'entreprise
 
 
-##### 🛠️ Implémenter une interface responsive
+#### 🛠️ Implémenter une interface responsive
 
 &nbsp;
 
