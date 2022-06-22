@@ -7,7 +7,7 @@
 &nbsp;
 
 
-__1) Maquette réalisée par mes soins &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;   &nbsp;   2) Maquette demandée par la société__
+__1) Maquette réalisée par mes soins &nbsp;   &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp;   &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;   &nbsp;   2) Maquette demandée par la société__
 
 <img alt="maquette réalisée"  width=45% src="maquette_done.png"></img> <img alt="maquette demandée" width=49% src="reservia_maquette_asked.png"></img>
 
