@@ -642,3 +642,11 @@ footer ul {
 .footer_list_c {
   width: 20%;
 }
+
+
+@media screen  and (min-width: 1200px) {
+
+  body{
+    margin: 0 2rem;
+  }
+}
